@@ -1,0 +1,9 @@
+repository.save(createUser("v234986", "john.doe@jpmchase.com", "password1", "John", "Doe", 6149872347L, "This is a bio", null, null, null, 60, "Executive Director", IMG));
+
+can you generate 12 of these, making the first field unique, modeling the email based on the person's name, and changing the first/last names as well as phone numbers (end the phone numbers with L)? and can you also generate the bios differently (so replace "i work in auto"? and can you fill the field called "executive director" with one of the following (randomized): [Executive Director, Managing Director, Intern, Software Engineer I, Associate]? 
+
+In 4 of the examples you give me, for the three null values, can you make the first one filled in with one of the following (randomized, with 0.7 weight on "NorCafe"): ["NorCafe", "Which Wich", "Starbucks", "SaladWorks"], can you make the second one filled in with a random java.sql Date, and can you make the third one filled with a random java.sql Time? and then replace 60 with 50000 in those examples as well. please fill in the date and time with actual dates and times in the java.sql format, where the date is 6/15/2023.
+
+please make the bios 2-3 sentences and contain more computer science technology related keywords as well as fun hobbies, and also format the list without bullet points (just newline after each semicolon). add "react" as a skill in the bio for exactly one half of the examples. please make 12 examples.
+
+print these examples as text with your response
